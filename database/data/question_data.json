@@ -1,0 +1,756 @@
+[
+    {
+        "subscale": 1,
+        "name": "Building trust, confidence and independence",
+        "items": [
+            {
+                "number": 1,
+                "name": "Self-regulation and social development",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Staff do not appear to agree about the boundaries/rules/expectations or apply them consistently.*"
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Some children are left, obviously confused or distressed."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Expectations and boundaries are made explicit and shared by all staff.*"
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff are respectful and professional around the children, parents/carers, and each other.*"
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff explain carefully to the children what they need to do and pre-empt any difficulties.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff show empathy and understanding when children do not want to follow rules or get upset.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff show an awareness of individuals and their needs, giving additional support and allowing some flexibility.*"
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Staff redirect inappropriate behaviour by stating what the children should do rather than what they should not."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff congratulate children when they follow the rules well - e.g. I saw you help put the tractor away.  And/or the children are encouraged to tell staff how they followed the rules etc.*"
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff have agreed processes that they follow when conflicts arise.  The processes include engaging the children in problem-solving and finding solutions to disputes together.*"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "name": "Encouraging choices and independent play",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "The interests of the children are not taken into account when planning the session."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff do not allow children to act independently."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff 'step back' from the children's play; they do not interfere unnecessarily. The theme, level of complexity, aim, choice of play is accepted."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Books, toys, resources are easily accessible to the children and staff accept and welcome that the children may use equipment/resources in a different way from their intended purpose and may rearrange the furniture."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "It is accepted that some children may wish to undertake a different activity from the rest of the group.*"
+                    },
+                    {
+                        "number": "3.4",
+                        "description": "The schedule/routine is flexible enough to allow for individual interests, and free choice/play is an everyday occurrence."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "If invited, the staff will join in with the children's play while allowing the children to lead, respecting the level of play and rules established by the children.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff show enjoyment and a sense of fun when watching or joining in with children's play.  They will set up new activities if the children ask.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "While the children's play is respected, the children are, nonetheless, expected to remain within the boundaries/rules of the setting.*"
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Staff provide the necessary resources to enrich and support play, according to the suggestions given by the children.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff include children in planning for the setting, e.g. consulting parents/carers, supporting children in choosing and making props for play areas, mind mapping, deciding whether to make a visit or have a visitor etc."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff observe the children following their adult-supported activities to see if any of the ideas, concepts etc. from these are incorporated in their free play.*"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "name": "Planning for small group and individual interactions/adult deployment",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Staff show little understanding that groups and groupings are important.*"
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "No clear delineation of areas for groups or schedule to allow for group and individual time"
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "The setting is arranged with enough choice so that children can play alone, in pairs, in small groups."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff ensure that individual areas within the setting do not become overcrowded, e.g. pictures and/or number labels are used to support older children's understanding of number limits in specific areas."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Children are involved in making choices about areas/spaces and resources.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff position themselves in areas so that they can see the whole area but also so that they can work with small groups/individuals."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Spaces are monitored regularly to ensure there are sufficient spaces/resources in popular areas and to remake, and then support children to interact with, previously unpopular areas.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Planning is flexible to the needs of the children.  It can change to follow the sudden interests of the children and/or activities are abandoned if no one wants to do them.*"
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff spend their time scaffolding learning across the setting and concentrate on the children they are working with while doing this.  They are, however, also aware of and responsive to the rest of the children."
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff engage in activities specifically designed to encourage children to come and see what they are doing.  This is to engage in individual and small group interactions and/or discussions.*"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subscale": 2,
+        "name": "Social and emotional well-being",
+        "items": [
+            {
+                "number": 4,
+                "name": "Supporting socio-emotional well-being",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Feelings expressed by the children are played down, ignored, dismissed or ridiculed."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff do not display a warm and welcoming body language to the children."
+                    },
+                    {
+                        "number": "1.3",
+                        "description": "Staff do not lay out the setting or organize activities to encourage social interaction.*"
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff empathize with the children and help them to deal with feelings expressed.*"
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff encourage children to play alongside each other, providing additional toys/props and resources to support continued play.  As the children progress to playing together, staff support them in helping each other and sharing."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Positive individual attention is paid to most children at some point during the session.*"
+                    },
+                    {
+                        "number": "3.4",
+                        "description": "Staff are warm, friendly, and calm.  They use calming gestures, physical proximity, pats, and hugs when necessary and appropriate."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Children are encouraged to express/say what they feel and need.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Planning shows evidence of learning intentions that are designed to support social interaction, including encouraging collaborative activities and play where appropriate.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Children are encouraged to seek an adult's support when sharing or playing breaks down.*"
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Staff are responsive to the children's needs, feelings, and moods.  They may play, show liveliness, and have fun with the children, supporting positive emotions.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff provide opportunities for children to talk about feelings and needs- often using the children's own experiences.  They may use stories or props, e.g. 'puppet misses his family, how shall we make him feel better?'."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Children are asked to show or say what the can understand from the non-verbal expressions of others in the group, from story books, photos, DVDs etc.*"
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff support children in communicating with, and recognizing and responding to the feelings of others, including where children may have difficulty expressing their needs or wants.*"
+                    },
+                    {
+                        "number": "7.4",
+                        "description": "Staff look beyond the children to explain their feelings, making changes within the environment/routine etc. when necessary.*"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subscale": 3,
+        "name": "Supporting and extending language and communication",
+        "items": [
+            {
+                "number": 5,
+                "name": "Encouraging children to talk with others",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Children are discouraged from speaking more than is necessary"
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff talk to children primarily to change their behaviour and to manage routines."
+                    },
+                    {
+                        "number": "1.3",
+                        "description": "The noise levels within the setting are not conducive to talk, e.g. too noisy due to music or songs being piped into the setting."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Children are allowed to speak whenever possible."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff attempt to engage in conversations with most children within the group.*"
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Children are encouraged to talk to each other during activities nd throughout the day.  The staff model and support this."
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "During adult-guided activities the children are given resources (etc.) that support, and are grouped to support, talk.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff ensure each child who wants to speak has the opportunity to do so.  They interact with individuals and small groups to support this."
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Where children are reticent or unable to talk and/or have English as an additional language, alternative methods of communication are employed, e.g. photographs, pictures, symbols, puppets, gestures, tape recordings from home.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Children are encouraged to choose and lead interactions, conversations, and/or play."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Children are encouraged to take more turns in an interaction, possibly giving longer and more complex answers as staff allow for this by increasing their waiting time, adding comments, and asking simple questions."
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Where children are reticent about interacting with others, staff play alongside the children, taking cues from them and following their lead, waiting to be invited to communicate.*"
+                    },
+                    {
+                        "number": "7.4",
+                        "description": "Staff provide running commentaries of individuals' and/or small groups' actions etc. to support longer play and interactions with other children.*"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "name": "Staff actively listen to children and encourage children to listen",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Staff stifle communication by, e.g. being judgemental or by humiliating, ignoring or belittling the children."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Requests for help are ignored (whether the requests be direct or indirect, e.g. crying, withdrawal, inactivity)."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Children's verbal messages are understood."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff respond to verbal and non-verbal signs from children."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "The body language of the staff shows that they want to communicate (open arms, inclined head, smiles, waiting and listening)."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff position themselves at the children's height when talking or listening to them."
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Rephrasing and/or repeating is used to check that the children have been understood."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Where meaning or speech is unclear, staff make an 'educated guess' rather than asking the child to constantly repeat her/himself.  Then, if they have guessed wrongly, staff take the blame for it.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff allow long pauses, so the children have time to think and respond.  They also show how they allow different lengths of pauses with different children.*"
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff encourage the children to talk and listen to each other by suggesting they tell another person.  Or by inviting other children to come and listen to what another child has to say or show.*"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "name": "Staff support children's language use",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Children are often spoken to in a 'babyish' way (mimicking the way young children speak)."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff often use poor or inappropriate language.*"
+                    },
+                    {
+                        "number": "1.3",
+                        "description": "Staff often use language that the children do not understand."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff employ simple and correct language with the correct use of grammar and pronunciation."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff use a tone of voice appropriate to the need and situation."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "The level of language is appropriate to the age and ability of the children."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff show care in the choice of correct and appropriate terms."
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff use varied tones of voice to support interest, excitement, express emotions, calm children, and support understanding."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff provide running commentaries to model vocabulary and to display their own thought processes for children while they play."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff support language development on an individual level by using correct forms of incorrect words, phrases, and grammar during interactions with children.  They do not point out the child's mistake - they just model the correct word, sentence etc."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "The staff scaffold and model language with individual children that is slightly above the child's current level.*"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "name": "Sensitive responsiveness",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Little effort is made to engage with the children (e.g. in conversation, to show any interest in what the children are doing etc.)."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff often talk among themselves and ignore the children in front of them."
+                    },
+                    {
+                        "number": "1.3",
+                        "description": "Little effort is made to treat the children as individuals.  Instead, children are communicated with en masse (as a group) at all times."
+                    },
+                    {
+                        "number": "1.4",
+                        "description": "Children are left in obvious distress."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff focus on small groups of children and respond to individuals within the group."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff listen out for and respond to any questions or comments from children in an interested way."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Praise is used, but indiscriminately and generally to the whole group."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff ensure that most children receive extended individual attention at least  once during the session.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Help is willingly offered if staff feel that children may be struggling with the task in hand."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Praise and encouragement are readily given to individuals when appropriate."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Most children are given one-on-one interactive attention more than once during the session.*"
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Any comments or requests from children are responded to or dealt with promptly - if necessary, involving another member of staff to ensure that children are not left waiting and wondering.*"
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Although staff members may wish to focus on an individual child, no other child in the group is made to feel excluded."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subscale": 4,
+        "name": "Supporting learning and critical thinking",
+        "items": [
+            {
+                "number": 9,
+                "name": "Supporting curiosity and problem-solving",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "The learning environment is always set out in the same way and includes the same resources and activities."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff stand back and allow the children to play by themselves all of the time unless there is conflict."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "There are a variety of resources available at each session. Activities/play routines are chosen that the adults know the children will want to undertake."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff offer at least one adult-supported activity during a session.*"
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Staff ask children to help them solve problems - e.g. while setting up areas, the children find and help them put out resources."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "New resources, activities, or challenges are set up regularly.  They are linked to the current theme or time of year or children's interests or schemas.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff model, support, and extend children's learning in ALL areas of the setting, moving from one area to the next as appropriate.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff challenge and support problem-solving - e.g. by posing small everyday problems or inviting children to solve problems as they arise."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Planning shows there have been regular visitors, e.g. police, local shopkeepers, taxi drivers, and/or staff dressed as characters in familiar stories playing a role."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Visits are made to places of interest and/or to extend children's knowledge and experiences.*"
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff support curiosity by hiding unexpected objects and/or using treasure boxes to be discovered during play.*"
+                    },
+                    {
+                        "number": "7.4",
+                        "description": "Staff support children's metacognition by talking aloud to model their thinking and problem-solving processes and support children to plan, undertake, and then review activities.*"
+                    }
+                ]
+            },
+            {
+                "number": 10,
+                "name": "Encouraging sustained shared thinking through storytelling, sharing books, singing, and rhymes",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Very little individual interaction during story/book time, singing, or rhymes."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff involvement with stories, books, singing, or rhymes is limited to whole group time."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff respond to children asking for stories, books, singing, or rhymes by helping them recall stories, locate and read books, singing with or engaging in rhyming, and word play as appropriate."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff invite children (individually or in small groups) to join them to sing, engage in word and rhyme play, or tell stories or read books."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Staff engage children in choosing songs, rhymes, stories, or books and ask them about their choices."
+                    },
+                    {
+                        "number": "3.4",
+                        "description": "Staff show that they know the children's preferred books, stories, songs, or rhymes.*"
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff encourage the children to hold and 'read' books or retell familiar stories, including their own 'stories', sing songs, or join in with rhymes and word games."
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff use props/puppets/the children themselves to support storytelling, engagement with songs or rhymes."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Children are given access to props and puppets to support retelling stories and use in free play."
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Staff sing and engage in rhyming and word play while playing and interacting with the children during other activities."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff use factual books to support children's understanding of concepts."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff engage children with stories, singing etc. They support anticipation of familiar words, actions etc., make comments, evaluate stories/songs etc., and ask a few simple open-ended questions.*"
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff encourage children to make links between the story, book, song, or rhyme and their previous experiences."
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "name": "Encouraging sustained shared thinking in investigation and exploration",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Very little exploration and investigation is encouraged."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Staff show little understanding of science/maths/problem-solving or concepts.*"
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff set out activities and open-ended resources deliberately to encourage exploration."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff discuss children's explorations and investigations with them."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Staff encourage children to make connections between what they observe and their previous experiences or with follow-up activities.  They make use of pictures (e.g. in books or on the computer) and other resources support this."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff encourage the children to use their imagination and creativity to explore and experiment.  They encourage children to bring resources/scientific equipment from area to area.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff model exploration, excitement, and wonder for children to watch and then engage with."
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff point out, share, and explain the actions and interests of the children as they occur.  They introduce simple scientific and explanatory concepts.*"
+                    },
+                    {
+                        "number": "5.4",
+                        "description": "Science/maths activities are organized so that they build upon previous activities and explorations.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff model using scientific/problem-solving approaches for the children to watch.  They support careful watching, prediction, anticipation, and evaluation through talk and action."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff use scientific words e.g. 'dissolve', linking these to the children's experiences, as well as to more familiar ideas as they occur.* N/A permitted: see supplementary information."
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff talk about and encourage parents/carers to join in with their children's scientific/problem-solving activities and explorations."
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "name": "Supporting children's concept development and higher-order thinking",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Staff do not appear to plan to support children's thinking and concept development."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff set up resources and run adult-guided sessions that support children to think critically, such as sequencing, comparing, contrasting, and problem-solving."
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "When children ask for help they get support in finding their own solutions to their queries."
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff support the children in thinking through what they are doing and extending it through modelling, asking simple open and closed questions, and providing additional resources."
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Planning shows evidence of learning intentions that lead to activities and questions designed to support or extend thinking and problem-solving."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Children are encouraged to plan for their own learning.  Adults may help them to gather materials, resources, produce 'lists', use photos, brainstorm, or mind map ready for an activity."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Children are encouraged to evaluate their activities and play through adult questioning.* N/A permitted: see supplementary information."
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Planning shows progression and provides children with the opportunities to develop concepts they have explored previously, e.g. through schemas, interests.*"
+                    },
+                    {
+                        "number": "7.4",
+                        "description": "Children are supported to see how the concepts they are exploring link to real life and their existing experiences, e.g. through visits, photos, discussion with parents/carers.*"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subscale": 5,
+        "name": "Assessing learning and language",
+        "items": [
+            {
+                "number": 13,
+                "name": "Using assessment to support and extend learning and critical thinking",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Assessment is conducted only to show end of stage or activity progress."
+                    },
+                    {
+                        "number": "1.2",
+                        "description": "Assessment is limited to noting milestones in development."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff assess children, making links to their ongoing development.*"
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff use assessment to show progress to the parents/carers and to support smooth transitions.*"
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Children are assessed to alert staff to any learning and/or behaviour difficulties.*"
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff use assessment to inform future practice, plan adult-guided activities and materials/resources within the environments.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff share simple learning objectives with the children during adult-supported activities and check whether these are achieved.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff constantly assess children's engagement with activities and change activities/resources/areas depending on their use."
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff observe, give children feedback, ask open-ended questions, and make suggestions."
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff highlight successes and difficulties without being judgemental.  For example, they give feedback that helps the children know what they are doing well and recognizes their strengths in the learning process.  They give give feedback that encourages positive learning dispositions such as persistence, concentration, and completion.*"
+                    },
+                    {
+                        "number": "7.3",
+                        "description": "Staff encourage children to give simple, positive, supportive feedback to one another.* N/A permitted: see supplementary information."
+                    }
+                ]
+            },
+            {
+                "number": 14,
+                "name": "Assessing language development",
+                "questions": [
+                    {
+                        "number": "1.1",
+                        "description": "Staff rarely engage in observations designed to specifically monitor and assess children's language development."
+                    },
+                    {
+                        "number": "3.1",
+                        "description": "Staff assess children's language development with all other areas of learning and make simple links to development.*"
+                    },
+                    {
+                        "number": "3.2",
+                        "description": "Staff involve parents in any assessments they make in connection to children's language development."
+                    },
+                    {
+                        "number": "3.3",
+                        "description": "Children are assessed to alert staff to any language development difficulties, then their progress is closely monitored.*"
+                    },
+                    {
+                        "number": "5.1",
+                        "description": "Staff observe children's language, taking short word-for-word samples of children's language during interactions with adults and peers across the setting.*"
+                    },
+                    {
+                        "number": "5.2",
+                        "description": "Staff assess and monitor children's language development, considering expressive language, comprehension, and how they use language to share meaning with others.*"
+                    },
+                    {
+                        "number": "5.3",
+                        "description": "Staff show awareness that language may vary across different contexts, e.g. home and setting, different areas within the setting, with different members of staff, and with different play opportunities.*"
+                    },
+                    {
+                        "number": "7.1",
+                        "description": "Staff recognize that supporting children's play is effective in supporting language development.  They observe the effect of scaffolding children's learning and supporting them to engage in more interaction with others and more complex imaginative play.*"
+                    },
+                    {
+                        "number": "7.2",
+                        "description": "Staff share their assessments and understandings with parents/carers and support them in playing with the children at home to support their development.*"
+                    }
+                ]
+            }
+        ]
+    }
+]
