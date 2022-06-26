@@ -9,8 +9,6 @@ use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -22,7 +20,8 @@ class UserController extends Controller
     /**
      * Constructor
      */
-    public function __construct() {
+    public function __construct()
+    {
         $this->authorizeResource(User::class, 'user');
     }
 
@@ -140,7 +139,8 @@ class UserController extends Controller
         }
 
         return view('users.set_password', [
-            'user' => $user
+            'user' => $user,
+            'pageTitle' => 'sdsds'
         ]);
     }
 

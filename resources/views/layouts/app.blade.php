@@ -23,14 +23,14 @@
     <div id="app" class="min-h-screen bg-white">
 
         <header class="w-full h-32" style="background: linear-gradient(180deg,#296036 75%,#9dbe42 75%);">
-            <div class="flex justify-between h-full px-20">
+            <div class="flex items-center justify-between h-full px-20">
 
                 <a href="{{ route('home') }}" class="flex">
-                    <div id="logo" class="self-center p-3 bg-white rounded-full shadow-xl">
-                        <img src="{{ asset('images/ww_logo.png') }}" alt="" class="w-20">
+                    <div id="logo" class="self-center w-20 h-20 p-3 bg-white rounded-full shadow-xl">
+                        {{-- <img src="" alt="" class="w-20 h-20"> --}}
                     </div>
 
-                    <h1 class="mt-8 ml-8 text-2xl text-white">{{ $pageTitle ?? 'SSTEW Assessments' }}</h1>
+                    <h1 class="self-center ml-8 text-2xl text-white">{{ $pageTitle ?? 'Nursery App' }}</h1>
                 </a>
 
                 <div id="nav" class="flex w-1/2">
