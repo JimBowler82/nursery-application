@@ -20,14 +20,18 @@
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
 
-        <div class="flex justify-end">
+        <div class="flex items-center justify-between">
+            <div class="">
+                <h2 class="text-3xl font-bold">User Management</h2>
+            </div>
+
             <a href="{{ route('users.create') }}"
                 class="px-12 py-4 text-white transition-colors duration-200 bg-darkGreen hover:bg-lightGreen hover:text-darkGreen">
                 Create New User
             </a>
         </div>
 
-        <div class="w-full mt-4">
+        <div class="w-full mt-14">
             <h2 class="text-2xl">Admin</h2>
             <div class="flex flex-wrap mt-6">
                 @foreach ($administrators as $user)

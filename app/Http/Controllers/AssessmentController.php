@@ -13,6 +13,10 @@ class AssessmentController extends Controller
      */
     public function index()
     {
+        if (!auth()->user()->isAdmin) {
+            abort(403, 'Access for administrators only');
+        }
+
         return view('assessments.index');
     }
 
@@ -23,7 +27,7 @@ class AssessmentController extends Controller
      */
     public function create()
     {
-        //
+        return view('assessments.create');
     }
 
     /**
