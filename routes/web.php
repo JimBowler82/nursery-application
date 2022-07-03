@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AssessmentController;
 use App\Http\Controllers\CentreController;
+use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,9 +18,7 @@ Route::put('users/{user}/setpassword', [UserController::class, 'update_password'
 
 // Auth Required Routes
 Route::middleware(['auth'])->group(function () {
-    Route::get('/', function () {
-        return view('home');
-    })->name('home');
+    Route::get('/', HomepageController::class)->name('home');
 
     // Users
     Route::prefix('users')->group(function () {

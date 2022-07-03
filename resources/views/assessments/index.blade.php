@@ -49,9 +49,14 @@
             <h3 class="mb-2 text-xl font-bold">Completed</h3>
             <div id="assessment_container" class="flex flex-wrap gap-10">
                 {{-- Placeholder until real data available --}}
-                @for ($i = 0; $i < 4; $i++)
-                    <x-assessment-card />
-                @endfor
+                @if (count($completed) === 0)
+                    <p class="ml-10">No completed assessments</p>
+                @else
+                    @foreach ($completed as $assessment)
+                        <x-assessment-card :assessment="$assessment" :user="$assessment->user" />
+                    @endforeach
+                @endif
+
             </div>
         </div>
 
@@ -59,9 +64,14 @@
             <h3 class="mb-2 text-xl font-bold">In Progress</h3>
             <div id="assessment_container" class="flex flex-wrap gap-10">
                 {{-- Placeholder until real data available --}}
-                @for ($i = 0; $i < 4; $i++)
-                    <x-assessment-card />
-                @endfor
+                @if (count($inProgress) === 0)
+                    <p class="ml-10">No completed assessments</p>
+                @else
+                    @foreach ($inProgress as $assessment)
+                        <x-assessment-card :assessment="$assessment" :user="$assessment->user" />
+                    @endforeach
+                @endif
+
             </div>
         </div>
 

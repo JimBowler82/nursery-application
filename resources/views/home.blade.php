@@ -17,7 +17,7 @@
 
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
-
+        {{-- {{ dd($completed) }} --}}
         <div class="flex items-center justify-between">
             <div class="">
                 <h2 class="text-4xl">Hi, {{ auth()->user()->name }}.</h2>
@@ -32,20 +32,30 @@
         <div class="mt-14">
             <h3 class="mb-2 text-xl font-bold">Assessments in progress</h3>
             <div id="assessment_container" class="flex flex-wrap gap-10">
-                {{-- Placeholder until real data available --}}
-                @for ($i = 0; $i < 4; $i++)
-                    <x-assessment-card />
-                @endfor
+
+                @if (count($inProgress) === 0)
+                    <p class="ml-10">No completed assessments</p>
+                @else
+                    @foreach ($inProgress as $assessment)
+                        <x-assessment-card :assessment="$assessment" />
+                    @endforeach
+                @endif
+
             </div>
         </div>
 
         <div class="mt-14">
             <h3 class="mb-2 text-xl font-bold">Completed assessments</h3>
             <div id="assessment_container" class="flex flex-wrap gap-10">
-                {{-- Placeholder until real data available --}}
-                @for ($i = 0; $i < 4; $i++)
-                    <x-assessment-card />
-                @endfor
+
+                @if (count($completed) === 0)
+                    <p class="ml-10">No completed assessments</p>
+                @else
+                    @foreach ($completed as $assessment)
+                        <x-assessment-card />
+                    @endforeach
+                @endif
+
             </div>
         </div>
 

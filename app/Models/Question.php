@@ -9,5 +9,10 @@ class Question extends Model
 {
     use HasFactory;
 
-    // relation - item
+    protected $guarded =[];
+
+    public function item()
+    {
+        return $this->belongsTo(Item::class);
+    }
 }

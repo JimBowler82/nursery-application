@@ -21,6 +21,11 @@ class Centre extends Model
         'description',
     ];
 
+    public function assessments()
+    {
+        return $this->hasMany(Assessment::class);
+    }
+
 
     /**
      * Scope query where type is centre
@@ -43,6 +48,4 @@ class Centre extends Model
     {
         return $query->where('type', 'setting');
     }
-
-
 }

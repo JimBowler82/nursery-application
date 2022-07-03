@@ -45,6 +45,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    public function assessments()
+    {
+        return $this->hasMany(Assessment::class);
+    }
+
     /**
      * Hash password attribute when being set.
      *
