@@ -47,6 +47,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/', [AssessmentController::class, 'index'])->name('assessments.index');
         Route::get('/create', [AssessmentController::class, 'create'])->name('assessments.create');
         Route::post('/', [AssessmentController::class, 'store'])->name('assessments.store');
+        Route::get('/{assessment}/perform', [AssessmentController::class, 'perform'])->name('assessments.perform');
         Route::get('/{assessment}', [AssessmentController::class, 'show'])->name('assessments.show');
         Route::get('/{assessment}/edit', [AssessmentController::class, 'edit'])->name('assessments.edit');
         Route::put('/{assessment}', [AssessmentController::class, 'update'])->name('assessments.update');

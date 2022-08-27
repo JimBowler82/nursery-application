@@ -2,13 +2,19 @@ require("./bootstrap");
 
 require("alpinejs");
 
-import { createApp } from "vue";
-import Example from "./components/Example.vue";
+import Vue from "vue";
 
-const app = createApp({
-    components: {
-        Example,
-    },
-});
+Vue.config.devtools = true;
 
-app.mount("#app");
+
+
+// const app = Vue({
+//     el: '#app',
+//     components: {
+//         'Example': Example
+//     }
+// });
+
+
+
+

@@ -14,9 +14,11 @@ const mix = require("laravel-mix");
 mix.browserSync({
     proxy: process.env.APP_URL,
     notify: false,
+    browser: "microsoft edge"
 });
 
 mix.js("resources/js/app.js", "public/js").vue();
+mix.js("resources/js/assessments/assessment.js", "public/js/assessments").vue();
 mix.postCss("resources/css/app.css", "public/css", [
     require("postcss-import"),
     require("tailwindcss"),

@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Assessment;
 use App\Models\Centre;
 use Illuminate\Http\Request;
+use JavaScript;
 
 class AssessmentController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
      */
     public function index()
     {
@@ -28,7 +28,6 @@ class AssessmentController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
      */
     public function create()
     {
@@ -41,11 +40,10 @@ class AssessmentController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request): \Illuminate\Http\RedirectResponse
     {
-        // dd($request->all());
+
         $request->validate([
             'centre_id' => 'required|numeric|exists:centres,id',
             'date' => 'required|date',
@@ -60,11 +58,17 @@ class AssessmentController extends Controller
         ]);
 
         $userId = auth()->user()->id;
-        Assessment::create(array_merge([
+
+        $assessment =  Assessment::create(array_merge([
             'user_id' => $userId
         ], $request->all()));
 
-        return redirect()->back()->with('status', 'Assessment created successfully');
+        if(!$assessment) {
+            return redirect()->back()->with('status', 'Assessment creation failed');
+        }
+
+        return redirect()->route('assessments.perform', ['assessment' => $assessment->id]);
+
     }
 
     /**
@@ -82,7 +86,6 @@ class AssessmentController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function edit(Request $request, Assessment $assessment)
     {
@@ -113,5 +116,16 @@ class AssessmentController extends Controller
     public function destroy($id)
     {
         dd('destroyed');
+    }
+
+    public function perform(Assessment $assessment)
+    {
+        JavaScript::put([
+            'assessmentId' => $assessment->id
+        ]);
+
+        return view('assessments.perform', [
+            'assessment' => $assessment
+        ]);
     }
 }
