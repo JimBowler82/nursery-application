@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class AssessmentQuestionsResource extends JsonResource
@@ -9,13 +10,11 @@ class AssessmentQuestionsResource extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
+     * @param Request $request
      */
     public function toArray($request)
     {
-
-
         return parent::toArray($request);
     }
 }
+

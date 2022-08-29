@@ -40,9 +40,9 @@
 
             <h2 class="ml-16 text-2xl font-bold">Assessment Details</h2>
 
-            <form action="{!! route('assessments.store') !!}" method="POST" class="flex-col w-3/5 ml-16">
+            <form action="{!! route('assessments.update', ['assessment' => $assessment->id]) !!}" method="POST" class="flex-col w-3/5 ml-16">
                 @csrf
-                @method('POST')
+                @method('PUT')
 
                 <div class="flex items-center justify-between w-full py-2 form-group">
                     <label for="centreSetting">Centre / Setting</label>

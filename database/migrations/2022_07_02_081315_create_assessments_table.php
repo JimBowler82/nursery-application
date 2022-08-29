@@ -17,7 +17,7 @@ class CreateAssessmentsTable extends Migration
             $table->id();
             $table->foreignId('user_id');
             $table->foreignId('centre_id')->constrained();
-            $table->datetime('date');
+            $table->date('date');
             $table->string('from_time');
             $table->string('till_time');
             $table->string('teachers_present');
@@ -26,6 +26,7 @@ class CreateAssessmentsTable extends Migration
             $table->string('assessed_quantity');
             $table->string('centre_setting_quantity');
             $table->boolean('completed')->default(false);
+            $table->json('questionData')->nullable();
             $table->string('notes');
             $table->timestamps();
         });

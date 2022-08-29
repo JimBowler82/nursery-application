@@ -17,7 +17,10 @@
 
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
-        {{-- {{ dd($completed) }} --}}
+
+        <!-- Validation Errors -->
+        <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
         <div class="flex items-center justify-between">
             <div class="">
                 <h2 class="text-4xl">Hi, {{ auth()->user()->name }}.</h2>
@@ -52,7 +55,7 @@
                     <p class="ml-10">No completed assessments</p>
                 @else
                     @foreach ($completed as $assessment)
-                        <x-assessment-card />
+                        <x-assessment-card :assessment="$assessment" />
                     @endforeach
                 @endif
 

@@ -1,4 +1,6 @@
-<x-app-layout>
+<x-vue-layout>
+
+
     <div id="assessment">
         <perform-assessment assessment-id="{{$assessment->id}}"></perform-assessment>
     </div>
@@ -9,6 +11,6 @@
 
 {{--    @include('components.js-vars')--}}
 
-</x-app-layout>
+</x-vue-layout>
 
 

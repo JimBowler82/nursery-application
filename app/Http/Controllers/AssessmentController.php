@@ -100,22 +100,30 @@ class AssessmentController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Assessment $assessment)
     {
-        //
+        $assessment->update($request->all());
+        $assessment->save();
+
+
+        return redirect()->route('assessments.perform', ['assessment' => $assessment->id]);
+
+
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy($id)
+    public function destroy(Assessment $assessment)
     {
-        dd('destroyed');
+        $assessment->delete();
+
+        return redirect()->back()->with('success', 'Assessment deleted successfully');
     }
 
     public function perform(Assessment $assessment)

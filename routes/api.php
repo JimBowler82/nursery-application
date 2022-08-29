@@ -19,4 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('assessmentQuestions', [AssessmentController::class, 'getQuestionData']);
+Route::get('{assessment}/assessmentQuestions', [AssessmentController::class, 'getQuestionData']);
+Route::put('{assessment}/perform', [AssessmentController::class, 'storeAssessmentQuestionData']);

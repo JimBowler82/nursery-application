@@ -1,8 +1,8 @@
 @props(['assessment', 'user'])
-{{-- {{ dd(Route::currentRouteName()) }} --}}
+
 <div class="p-4 w-80 shadow-userCard">
     <h3 class="w-full text-2xl font-bold">{{ $assessment->centreSetting->name ?? 'No Name Set' }}</h3>
-    <p class="text-lg">0/30 questions completed</p>
+    <p class="text-lg">{{ $assessment->totalNumberOfQuestionsAnswered }} / {{ $assessment->totalNumberOfQuestions }} questions completed</p>
 
     @if (isset($user))
         <p class="text-lg">User: {{ $user->name ?? '' }}</p>
