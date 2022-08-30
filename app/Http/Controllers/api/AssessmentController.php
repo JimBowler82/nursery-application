@@ -41,16 +41,13 @@ class AssessmentController extends Controller
         $assessment->completed = $assessment->completedValue;
         $assessment->save();
 
-        if($assessment->wasChanged()) {
-            return response()->json([
-                'success' => true,
-                'payload' => []
-            ]);
-        }
 
         return response()->json([
-            'success' => false,
-            'payload' => 'Assessment not updated'
+            'success' => true,
+            'payload' => []
         ]);
+
+
+
     }
 }
