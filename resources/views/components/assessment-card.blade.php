@@ -9,14 +9,14 @@
     @endif
 
     @if (!$assessment->completed)
-        <a href="{{ route('assessments.edit', ['assessment' => $assessment->id]) }}"
+        <a href="{{ route('assessments.show', ['assessment' => $assessment->id]) }}"
             class="flex items-center justify-center w-full py-3 mb-3 mt-6 text-lg text-white transition-colors duration-200 bg-lightGreen hover:bg-darkGreen">
             Resume
         </a>
     @else
         <p class="text-lg">Score: {{ $assessment->score ?? 0 }}%</p>
 
-        <a href="{{ route('assessments.edit', ['assessment' => $assessment->id]) }}"
+        <a href="{{ route('assessments.show', ['assessment' => $assessment->id]) }}"
             class="flex items-center justify-center w-full py-3 mb-3 mt-6 text-lg text-white transition-colors duration-200 bg-lightGreen hover:bg-darkGreen">
             Edit
         </a>

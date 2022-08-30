@@ -6,6 +6,7 @@ use App\Models\Assessment;
 use App\Models\Centre;
 use App\Models\Subscale;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use JavaScript;
 
 class AssessmentController extends Controller
@@ -76,18 +77,18 @@ class AssessmentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Request $request, Assessment $assessment)
     {
-        //
+
+        return view('assessments.show', [
+            'assessment' => $assessment
+        ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
      */
     public function edit(Request $request, Assessment $assessment)
     {
@@ -124,9 +125,10 @@ class AssessmentController extends Controller
      */
     public function destroy(Assessment $assessment)
     {
+        Log::info('here');
         $assessment->delete();
 
-        return redirect()->back()->with('success', 'Assessment deleted successfully');
+        return redirect()->route('home')->with('success', 'Assessment deleted successfully');
     }
 
     public function perform(Assessment $assessment)

@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Assessment;
+use Illuminate\Support\Str;
 
 class AssessmentObserver
 {
@@ -14,7 +15,8 @@ class AssessmentObserver
      */
     public function created(Assessment $assessment)
     {
-        //
+        $assessment->uuid = Str::uuid();
+        $assessment->save();
     }
 
     /**
