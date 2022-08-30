@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Assessment;
 use App\Models\Centre;
+use App\Models\Subscale;
 use Illuminate\Http\Request;
 use JavaScript;
 
@@ -32,7 +33,8 @@ class AssessmentController extends Controller
     public function create()
     {
         return view('assessments.create', [
-            'centres' => Centre::all()
+            'centres' => Centre::all(),
+            'sidebarData' => Subscale::with('items.questions')->get()
         ]);
     }
 
@@ -91,7 +93,8 @@ class AssessmentController extends Controller
     {
         return view('assessments.edit', [
             'assessment' => $assessment,
-            'centres' => Centre::all()
+            'centres' => Centre::all(),
+            'sidebarData' => Subscale::with('items.questions')->get()
         ]);
     }
 

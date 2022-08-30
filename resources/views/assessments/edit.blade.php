@@ -11,22 +11,17 @@
     <div class="flex items-stretch w-full mt-12">
         <!-- Session Status -->
 
-        <div class="w-1/4 border-r border-gray-200 l progress">
+        <div class="w-1/4 border-r border-gray-200 pr-10">
 
             <div>
                 <ul class="flex-col items-start text-gray-600">
-                    <li class="my-1 font-black active">Assessment Details</li>
-                    <li class="my-1">1. Section One</li>
-                    <li class="my-1">2. Section Two</li>
-                    <li class="my-1">3. Section Three</li>
-                    <li class="my-1">4. Section Four</li>
-                    <li class="my-1">5. Section Five</li>
-                    <li class="my-1">6. Section Six</li>
-                    <li class="my-1">7. Section Seven</li>
-                    <li class="my-1">8. Section Eight</li>
-                    <li class="my-1">9. Section Nine</li>
-                    <li class="my-1">10.Section Ten</li>
-                    <li class="my-1">11. Section Eleven</li>
+                    <li class="my-1 text-black font-bold active">Assessment Details</li>
+
+                    @foreach($sidebarData as $subscale)
+                        <li class="my-2">{{$subscale->number }}. {{$subscale->name}}</li>
+                    @endforeach
+
+                    <li class="my-1">6. Summary</li>
                 </ul>
             </div>
         </div>
